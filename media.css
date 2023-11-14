@@ -1,0 +1,146 @@
+@media(max-width:991px){
+
+    header{
+        width: 100vw;
+        position: fixed;
+        left: -100vw;
+        transition-duration: 1s;
+        z-index: 999;
+    }
+
+    header ul>li>a {  
+        padding-left: 43%;   
+        font-size: 30px;
+    }
+
+    #header h1 {
+        font-size: 35px;
+    }
+
+    .main-container {
+        width: 100% !important; 
+    }
+
+    #toggle {
+        display: block !important;
+        z-index: 99;
+        position: fixed;
+    }
+    .xmark-icon{ 
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 39%;
+        font-weight: bolder;   
+    }
+
+    .xmark-icon{
+        font-size: 50px;
+    }
+
+    #toggle {
+        position: fixed;
+        top: 10px;
+        right: 35px;
+        font-size: 50px;
+    }
+
+    .icon {
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    #home {
+        height: 80vh;
+    }
+
+    #home h2 {
+        padding-top: 25vh;
+    }
+
+    .button_slide {
+        padding: 13px 60px;
+        font-size: 18px;
+    }
+
+
+    
+}
+@media(min-width:767px) and (max-width:991px){
+    header ul>li>a {  
+        padding-left: 43%;   
+        font-size: 30px;
+    }
+
+    #header h1 {
+        font-size: 35px;
+    }
+
+
+}
+
+@media(min-width:550px) and (max-width:767px){
+    header ul>li>a {  
+        padding-left: 44% !important;   
+    }
+
+
+}
+
+@media (max-width:550px){
+
+    #toggle {
+        right: 20px !important;
+        font-size: 30px !important;
+    }
+
+    .xmark-icon{
+        font-size: 30px !important;
+    }
+
+    #home h2 {
+        font-size: 22px !important;
+        padding-top: 30vh !important;
+    }
+
+    #home p {
+        font-size: 35px !important;   
+    }
+    
+    .typewrite {
+        font-size: 22px;   
+    }
+
+    header ul>li>a {  
+        padding-left: 40% !important;   
+        font-size: 20px !important;
+    }
+
+    header ul>li {
+        display: flex;
+        margin-top: 4vh !important;
+      }
+
+    header h1 {
+
+        font-size: 22px !important;
+        font-weight: 400;
+        margin: 5vh auto !important;
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        width:100px;
+        height: 100px;
+    }
+
+
+    .button_slide {
+        padding: 7px 32px ;
+        font-size: 14px ;
+    }
+    
+
+    
+}
